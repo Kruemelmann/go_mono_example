@@ -1,0 +1,6 @@
+module(
+    name="go_mono_example",
+)
+
+bazel_dep(name = "rules_go", version = "0.44.0")
+bazel_dep(name = "gazelle", version = "0.35.0")
